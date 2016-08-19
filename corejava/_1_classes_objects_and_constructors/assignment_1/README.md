@@ -20,15 +20,12 @@ You track many things about your products, and the key things include the name, 
 Ans: CustomerInfo, ProductOrder, ProductDetail.
 
 2.	Identify some of the classes in the Order Entry business, limiting yourself to three. The process of identifying a class is to look for nouns that classify a group of things from the business description. Some nouns will describe the attributes of a class. Write a simple sentence or two describing each class to make sure that it is of interest to the business.
-
 Ans: CustomerInfo contains the customer details and a method to determine the customer is a company or person. ProductOrder contains attributes to track the order for each unique customer extending CustomerInfo. ProductDetail determines the indiviudal product detail extending the ProductOrder class.
 
 3.	Identify a few attributes for each of the new classes. Remember that attributes may be other classes.
-
 Ans: name, id, address, cost, category etc.
 
 4.	Define some behaviors (methods or operations) for each of the classes that you have discovered.
-
 Ans: Determining each unique customer info with their orders and product list.
 
 5.	Look for classes that can inherit structure (attributes) and behavior (methods) from other classes. Modify your definitions to reflect the inheritance model.
