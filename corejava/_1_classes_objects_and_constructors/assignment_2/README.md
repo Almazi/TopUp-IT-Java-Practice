@@ -8,8 +8,9 @@ TalentSprint needs a program to calculate how much to pay their hourly employees
 •	If the number of hours is greater than 60, print an error message.
 •	Using Methods, Classes, and Objects Assignment
 
-	Create a new class called TalentSprint. Write a method that takes the base pay and   	hours worked as parameters, and prints the total pay or an error. Write a main
-            method that calls this method for each of these employees:
+1. Create a new class called TalentSprint.
+2. Write a method that takes the base pay and hours worked as parameters, and prints the total pay or an error.
+3. Write a main method that calls this method for each of these employees:
 
 Employee Name	Base Pay 	Hours Worked
 Employee 1 	$7.50 	35
