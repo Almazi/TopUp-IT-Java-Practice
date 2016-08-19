@@ -15,8 +15,20 @@ The order is not very complicated. Each order has a unique number that you can u
 You track many things about your products, and the key things include the name, description, and list price. Additionally, you want to include a warranty period, the supplier who distributes the product, a catalog URL to reference it on the Web, and a weight classification that is used when you calculate shipping costs. It is important for you to also track information about the products that are available, and where they are located. You have many warehouses to hold all your products.
 
 # Understanding Object-Oriented Principles
-1.	Identifying Business Classes, Attributes, and Methods
+1.	Identifying Business Classes, Attributes, and Methods.
+
+Ans: CustomerInfo, ProductOrder, ProductDetail.
+
 2.	Identify some of the classes in the Order Entry business, limiting yourself to three. The process of identifying a class is to look for nouns that classify a group of things from the business description. Some nouns will describe the attributes of a class. Write a simple sentence or two describing each class to make sure that it is of interest to the business.
+
+Ans: CustomerInfo contains the customer details and a method to determine the customer is a company or person. ProductOrder contains attributes to track the order for each unique customer extending CustomerInfo. ProductDetail determines the indiviudal product detail extending the ProductOrder class.
+
 3.	Identify a few attributes for each of the new classes. Remember that attributes may be other classes.
+
+Ans: name, id, address, cost, category etc.
+
 4.	Define some behaviors (methods or operations) for each of the classes that you have discovered.
+
+Ans: Determining each unique customer info with their orders and product list.
+
 5.	Look for classes that can inherit structure (attributes) and behavior (methods) from other classes. Modify your definitions to reflect the inheritance model.

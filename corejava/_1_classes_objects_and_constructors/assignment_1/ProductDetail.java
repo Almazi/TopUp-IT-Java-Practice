@@ -1,18 +1,14 @@
 package corejava._1_classes_objects_and_constructors.assignment_1;
 
-import java.util.Scanner;
-
-public class ProductOrder extends CustomerInfo{
-	int orderNo;
-	int orderDate;
-	String shippingMode;
-	String orderStatus;
-	ProductOrder(){
-		
-	}
-	ProductOrder(String name, String houseNo, String area, String city, String country, 
+public class ProductDetail extends ProductOrder{
+	String productName;
+	String category;
+	int price;
+	int quantity;
+	ProductDetail(String name, String houseNo, String area, String city, String country, 
 			int telephoneNo, int customerID, int licenseNo, boolean customerIsCompany, int orderNo,
-			int orderDate, String shippingMode, String orderStatus){
+			int orderDate, String shippingMode, String orderStatus, String productName, String category, int price,
+			int quantity){
 		this.name = name;
 		this.houseNo = houseNo;
 		this.area = area;
@@ -26,6 +22,11 @@ public class ProductOrder extends CustomerInfo{
 		this.orderDate = orderDate;
 		this.shippingMode = shippingMode;
 		this.orderStatus = orderStatus;
+		this.productName = productName;
+		this.category = category;
+		this.price = price;
+		this.quantity = quantity;
+		
 	}
-	
+
 }
